@@ -1,3 +1,9 @@
-const _ = require('lodash')
+const user = {
+  name: 'javascript'
+}
 
-console.log('Hello, ' + _.capitalize('javascript'))
+Object.preventExtensions(user);
+
+user.age = 100;
+
+console.log(user);
