@@ -5,5 +5,6 @@ const user = {
 Object.seal(user);
 
 user.age = 100;
+user.name = 'new name'
 
 console.log(user);
