@@ -2,7 +2,7 @@ const user = {
   name: 'javascript'
 }
 
-Object.preventExtensions(user);
+Object.seal(user);
 
 user.age = 100;
 
